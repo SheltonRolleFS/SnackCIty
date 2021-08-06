@@ -1,0 +1,50 @@
+#page-header{
+    background-color: $primary;
+    
+    div{
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 100px;
+        }
+
+        ul{
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+            list-style: none;
+
+            a{
+                cursor: pointer;
+                height: 100%;
+                text-decoration: none;
+                color: white;
+                display: flex;
+                align-items: center;
+                padding: 0 2rem;
+                transition: all 150ms ease-in;
+            }
+
+            a:hover{
+                background-color: #252b38;
+            }
+
+            li{
+
+                button{
+                    border: none;
+                    border-radius: 100%;
+                    overflow: hidden;
+                    cursor: pointer;
+                    margin-left: 2rem;
+
+                    img{
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+}
